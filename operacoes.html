@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>operacoes matematica</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script>
+        let opcao,num1,num2,resultado;
+        num1=parseInt(prompt("digite um numero"));
+        num2=parseInt(prompt("digite um numero"));
+        opcao=prompt("digite a operacao\n+.adicao\n -subtracao\n *multiplicacao\n /divicao\n");
+        switch(opcao){
+        case '+' :
+        resultado = num1+num2;
+        alert(num1 + " + " + num2 + " = " + resultado);break;
+        case'-':
+        resultado = num1-num2;
+        alert(num1 + " - " + num2 + " = " + resultado);break;
+        case'*':
+        resultado = num1*num2;
+        alert(num1 + " * " + num2 + " = " + resultado);break;
+        case'/':
+        resultado = num1/num2;
+        alert(num1 + " / " + num2 + " = " + resultado);break;
+        default:
+            alert("opcao invalida"); 
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
